@@ -1,0 +1,9 @@
+{
+  "project_name": "My FastAPI App",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "python_version": "3.14",
+  "database_name": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "database_user": "postgres",
+  "database_password": "postgres",
+  "database_port": "6440"
+}
